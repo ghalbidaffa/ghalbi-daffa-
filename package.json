@@ -1,0 +1,15 @@
+{
+  "name": "ghalbi-daffa-",
+  "version": "1.0.0",
+  "description": "Repository Praktikum IMK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./tailwind-component/style/input.css -o ./tailwind-component/style/output.css --watch "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
