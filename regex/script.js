@@ -6,7 +6,7 @@ const REGULAR_EXPRESSION_1 = /^Ghalbi Daffa Yustiawan$/;
 
 regexInputghel.addEventListener("input", function() {
     validationTextghel.textContent = REGULAR_EXPRESSION_1.test(regexInputghel.value) 
-    ? "Valid" : "Nama yang anda masukkan salah (setiap awalan dan spasi meggunakan huruf kapital)";
+    ? "Valid" : "Nama yang anda masukkan salah (Ghalbi Daffa Yustiawan)";
 });
 
 // regex dua
